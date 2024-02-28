@@ -1,0 +1,84 @@
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.heroshield, .herocontent, .lowerherocontent, .lastherosection {
+    width: 100%;
+    max-width: 1200px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.heroshield, .herocontent {
+    height: auto;
+}
+
+
+.heroshield img {
+    width: 100%;
+    height: auto;
+}
+
+
+.herocontent ul {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.herocontent img {
+    max-width: 100%;
+    height: auto;
+}
+
+.herocontent h6 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.lowerherocontent h6, .lowerherocontent .pumps_h6 {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+   
+}
+
+.lowerherocontent img {
+    width: 100%;
+    height: auto;
+    max-width: 800px; 
+    margin: 20px auto;
+    margin-left: 10px;
+}
+
+
+.lastherosection h6, .lastherosection h5 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.lastherosection strong{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 20%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .heroshield, .herocontent {
+        width: 50%;
+    }
+
+    .lowerherocontent {
+        width: 90%;
+    }
+
+    .lastherosection {
+        width: 90%;
+    }
+}
